@@ -11,7 +11,7 @@ MFRC522::MIFARE_Key key;
 int blockNum = 2;  
 /* This is the actual data which is 
 going to be written into the card */
-byte blockData [16] = {"SY24SAL0063"};  // Change the name you want to store in RFID Tag
+byte blockData [16] = {"SY23SAL0063"};  // Change the name you want to store in RFID Tag
 //-----------------------------------------
 /* Create array to read data from Block */
 /* Length of buffer should be 2 Bytes 
